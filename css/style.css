@@ -1,0 +1,71 @@
+/****************** Common *******************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(207, 207, 207);
+}
+
+img {
+    max-width: 100%;
+}
+
+/****************** form *******************/
+.form {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+.inner-form {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/****************** card *******************/
+.my-card {
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid black;
+    position: relative;
+    flex: 0 0 auto;
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    right: 10px;
+}
+
+.img-box {
+    margin-top: 10px;
+}
+
+.info>* {
+    padding-bottom: 0.2rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: red;
+}
